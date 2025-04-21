@@ -2,7 +2,7 @@
 
 > A simple Flask-based API that stores and retrieves messages using PostgreSQL, Docker, and CI/CD pipelines.
 
-![CI](https://github.com/danieljelacik/secure-message-api/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/djelacik/secure-message-api/actions/workflows/ci.yml/badge.svg)
 
 
 This is a small learning project where I built a simple message API using:
