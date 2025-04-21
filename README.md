@@ -33,7 +33,7 @@ Messages are saved in a PostgreSQL database.
 - **Flask** is simple and good for learning how APIs work
 - **PostgreSQL** is a real SQL database used in production
 - **Docker** helps run the app and database in any environment
-- **GitHub Actions** runs tests automatically when I push code
+- **GitHub Actions** runs tests automatically when I push the code
 - **pytest** helps me check that the message feature actually works
 
 ---
@@ -43,7 +43,7 @@ Messages are saved in a PostgreSQL database.
 1. Install Docker and make sure it’s running
 2. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/djelacik/secure-message-api
    cd secure-message-api
    ```
 ---
@@ -53,7 +53,7 @@ Messages are saved in a PostgreSQL database.
 
 2. Clone this repository and go into the project folder:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/djelacik/secure-message-api
    cd secure-message-api
    ```
 3. Start the app and the database using Docker Compose:
@@ -109,7 +109,7 @@ This shows that the system works end-to-end in an automated environment.
 - How to isolate test data using SQLite
 - How to write a GitHub Actions CI workflow that installs dependencies, starts services, and runs automated tests
 
-This was my first project combining backend development and DevOps tools, and it helped me understand the full development pipeline from code to deployment and testing.
+This is my first public project combining backend development and DevOps tools, and it helped me understand the full development pipeline from code to deployment and testing.
 
 ---
 
